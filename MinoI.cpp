@@ -9,7 +9,9 @@ char I_arr[2][4][4] = {{{'0', '0', '1', '0'},
 			{'1', '1', '1', '1'},
 			{'0', '0', '0', '0'}}};
 
-MinoI::MinoI(): Mino(1){}
+MinoI::MinoI(): Mino(1){
+	rotate_index = 0;
+}
 
 void MinoI::paint(){
 	for (int i = 0; i < 4; ++i){
