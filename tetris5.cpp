@@ -8,7 +8,7 @@ int main(){
 	Mino* mino_ptr;
 	
 	srand(time(NULL));
-	for (int i = 0; i < 3; ++i){
+	for (int i = 0; i < 5; ++i){
 		mino_ptr = genMino();
 		mino_ptr -> paint();
 		delete mino_ptr;

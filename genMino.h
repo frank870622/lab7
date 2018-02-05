@@ -3,6 +3,8 @@
 #include "Mino.h"
 #include "MinoS.h"
 #include "MinoI.h"
+#include "MinoZ.h"
+#include "MinoO.h"
 
 Mino* genMino();
 #endif
